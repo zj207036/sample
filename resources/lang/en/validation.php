@@ -100,8 +100,15 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'email' => [
+            'required' => '邮箱地址不能为空！',
+        ],
+        'name' => [
+            'required' => '用户名不能为空',
+            'max' => '用户名不能超过20个字符',
+        ],
+        'password' => [
+            'required' => '密码不能为空',
         ],
     ],
 
