@@ -13,6 +13,7 @@ class UsersController extends Controller
     public function __construct()
     {
         //注释行
+        //注释行
         $this->middleware('auth',[
             'except' => ['show','create','store','index','confirmEmail']
         ]);
